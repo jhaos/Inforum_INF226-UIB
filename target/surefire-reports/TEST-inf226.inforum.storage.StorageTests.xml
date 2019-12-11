@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="inf226.inforum.storage.StorageTests" time="0.243" tests="9" errors="2" skipped="0" failures="0">
+  <properties>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="12"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/julius/Escritorio/inf226/inf226-2019-inforum/target/test-classes:/home/julius/Escritorio/inf226/inf226-2019-inforum/target/classes:/home/julius/.m2/repository/org/eclipse/jetty/jetty-server/9.4.9.v20180320/jetty-server-9.4.9.v20180320.jar:/home/julius/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/julius/.m2/repository/org/eclipse/jetty/jetty-http/9.4.9.v20180320/jetty-http-9.4.9.v20180320.jar:/home/julius/.m2/repository/org/eclipse/jetty/jetty-util/9.4.9.v20180320/jetty-util-9.4.9.v20180320.jar:/home/julius/.m2/repository/org/eclipse/jetty/jetty-io/9.4.9.v20180320/jetty-io-9.4.9.v20180320.jar:/home/julius/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.4.2/junit-jupiter-api-5.4.2.jar:/home/julius/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/home/julius/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/home/julius/.m2/repository/org/junit/platform/junit-platform-commons/1.4.2/junit-platform-commons-1.4.2.jar:/home/julius/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.4.2/junit-jupiter-engine-5.4.2.jar:/home/julius/.m2/repository/org/junit/platform/junit-platform-engine/1.4.2/junit-platform-engine-1.4.2.jar:/home/julius/.m2/repository/org/xerial/sqlite-jdbc/3.28.0/sqlite-jdbc-3.28.0.jar:/home/julius/.m2/repository/com/lambdaworks/scrypt/1.4.0/scrypt-1.4.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="12"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-12-openjdk/lib"/>
+    <property name="sun.java.command" value="/home/julius/Escritorio/inf226/inf226-2019-inforum/target/surefire/surefirebooter1852804396730068316.jar /home/julius/Escritorio/inf226/inf226-2019-inforum/target/surefire 2019-11-06T12-16-53_461-jvmRun1 surefire17036760485182153879tmp surefire_08617765472288482804tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/julius/Escritorio/inf226/inf226-2019-inforum/target/test-classes:/home/julius/Escritorio/inf226/inf226-2019-inforum/target/classes:/home/julius/.m2/repository/org/eclipse/jetty/jetty-server/9.4.9.v20180320/jetty-server-9.4.9.v20180320.jar:/home/julius/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/julius/.m2/repository/org/eclipse/jetty/jetty-http/9.4.9.v20180320/jetty-http-9.4.9.v20180320.jar:/home/julius/.m2/repository/org/eclipse/jetty/jetty-util/9.4.9.v20180320/jetty-util-9.4.9.v20180320.jar:/home/julius/.m2/repository/org/eclipse/jetty/jetty-io/9.4.9.v20180320/jetty-io-9.4.9.v20180320.jar:/home/julius/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.4.2/junit-jupiter-api-5.4.2.jar:/home/julius/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/home/julius/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/home/julius/.m2/repository/org/junit/platform/junit-platform-commons/1.4.2/junit-platform-commons-1.4.2.jar:/home/julius/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.4.2/junit-jupiter-engine-5.4.2.jar:/home/julius/.m2/repository/org/junit/platform/junit-platform-engine/1.4.2/junit-platform-engine-1.4.2.jar:/home/julius/.m2/repository/org/xerial/sqlite-jdbc/3.28.0/sqlite-jdbc-3.28.0.jar:/home/julius/.m2/repository/com/lambdaworks/scrypt/1.4.0/scrypt-1.4.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/julius"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-07-16"/>
+    <property name="java.home" value="/usr/lib/jvm/java-12-openjdk"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/julius/Escritorio/inf226/inf226-2019-inforum"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/julius/Escritorio/inf226/inf226-2019-inforum/target/surefire/surefirebooter1852804396730068316.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="12.0.2+10"/>
+    <property name="user.name" value="julius"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.3.1-arch1-1-ARCH"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/julius/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="12.0.2"/>
+    <property name="user.dir" value="/home/julius/Escritorio/inf226/inf226-2019-inforum"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="N/A"/>
+    <property name="java.vm.version" value="12.0.2+10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="56.0"/>
+  </properties>
+  <testcase name="testMessageStorageRenew" classname="inf226.inforum.storage.StorageTests" time="0.208"/>
+  <testcase name="testMessageStorageSave" classname="inf226.inforum.storage.StorageTests" time="0.002"/>
+  <testcase name="testUserContextStorageRenew" classname="inf226.inforum.storage.StorageTests" time="0.006">
+    <error message="Unresolved compilation problem: &#10;	The constructor User(String, String, Instant) is undefined&#10;" type="java.lang.Error">java.lang.Error: 
+Unresolved compilation problem: 
+	The constructor User(String, String, Instant) is undefined
+
+	at inf226.inforum.storage.StorageTests.testUserContextStorageRenew(StorageTests.java:238)
+</error>
+  </testcase>
+  <testcase name="storedNewVerion" classname="inf226.inforum.storage.StorageTests" time="0.002"/>
+  <testcase name="testMessageStorageUpdate" classname="inf226.inforum.storage.StorageTests" time="0.001"/>
+  <testcase name="testUserStorageSave" classname="inf226.inforum.storage.StorageTests" time="0.001">
+    <error message="Unresolved compilation problem: &#10;	The constructor User(String, String, Instant) is undefined&#10;" type="java.lang.Error">java.lang.Error: 
+Unresolved compilation problem: 
+	The constructor User(String, String, Instant) is undefined
+
+	at inf226.inforum.storage.StorageTests.testUserStorageSave(StorageTests.java:215)
+</error>
+  </testcase>
+  <testcase name="testThreadStorageRenew" classname="inf226.inforum.storage.StorageTests" time="0.009"/>
+  <testcase name="testThreadStorageSave" classname="inf226.inforum.storage.StorageTests" time="0.001"/>
+  <testcase name="testThreadStorageUpdate" classname="inf226.inforum.storage.StorageTests" time="0.002"/>
+</testsuite>

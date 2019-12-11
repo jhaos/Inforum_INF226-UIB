@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: inf226.inforum.storage.StorageTests
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.243 s <<< FAILURE! - in inf226.inforum.storage.StorageTests
+testUserContextStorageRenew  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The constructor User(String, String, Instant) is undefined
+
+	at inf226.inforum.storage.StorageTests.testUserContextStorageRenew(StorageTests.java:238)
+
+testUserStorageSave  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The constructor User(String, String, Instant) is undefined
+
+	at inf226.inforum.storage.StorageTests.testUserStorageSave(StorageTests.java:215)
+
